@@ -6,3 +6,19 @@ h1, h2 {
   text-align: center;
   color: white;
 }
+
+.active {
+  color:rgb(50, 47, 255);
+}
+
+a {
+  color: white;
+  font-size: 24px;
+  padding: 5px 25px 5px 25px;
+  background-color: indianred;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+
+
