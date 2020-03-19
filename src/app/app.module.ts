@@ -12,7 +12,7 @@ export const appRouters: Routes = [
   {path: 'one', component: OneComponent},
   {path: 'two', component: TwoComponent},
   {path: 'three', component: ThreeComponent}
-]
+];
 @NgModule({
   declarations: [
     AppComponent,
