@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-two',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TwoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private myRouter: Router) { }
 
   ngOnInit(): void {
+    setTimeout(() => this.myRouter.navigate(['/three']), 3000);
   }
 
 }
