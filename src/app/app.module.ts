@@ -6,6 +6,7 @@ import { OneComponent } from './one/one.component';
 import { TwoComponent } from './two/two.component';
 import { ThreeComponent } from './three/three.component';
 import { Routes, RouterModule } from '@angular/router';
+import { WarningComponent } from './warning/warning.component';
 
 export const appRouters: Routes = [
   {path: '', component: OneComponent},
@@ -18,7 +19,8 @@ export const appRouters: Routes = [
     AppComponent,
     OneComponent,
     TwoComponent,
-    ThreeComponent
+    ThreeComponent,
+    WarningComponent
   ],
   imports: [
     BrowserModule,
