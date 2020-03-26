@@ -12,7 +12,8 @@ export const appRouters: Routes = [
   {path: '', component: OneComponent},
   {path: 'one', component: OneComponent},
   {path: 'two', component: TwoComponent},
-  {path: 'three', component: ThreeComponent}
+  {path: 'three', component: ThreeComponent},
+  {path: '**', component: WarningComponent}
 ];
 @NgModule({
   declarations: [
