@@ -22,7 +22,6 @@ export const appRouters: Routes = [
     TwoComponent,
     ThreeComponent,
     WarningComponent,
-    FourComponent
   ],
   imports: [
     BrowserModule,
