@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ActivatedRoute } from '@angular/router'
 @Component({
   selector: 'app-three',
   templateUrl: './three.component.html',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThreeComponent implements OnInit {
 
-  constructor() { }
+  version: string;
+
+  constructor(private currentRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.version = this.currentRoute.snapshot.data[0].version;
   }
 
 }
