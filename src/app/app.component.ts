@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title1: string = 'Angular-In-Examples';
-  title2: string = 'ActivatedRoute, przekazanie danych dynamicznych do trasy';
-
+  title2: string = 'ActivatedRoute, przekazanie danych statycznych do trasy';
 }
