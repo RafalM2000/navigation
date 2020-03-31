@@ -14,7 +14,7 @@ export const appRouters: Routes = [
   {path: 'one', component: OneComponent},
   {path: 'two', component: TwoComponent},
   {path: 'three', component: ThreeComponent, data: [{version: '1.3.8'}]},
-  {path: 'four', component: FourComponent},
+  {path: 'four/:idOffer', component: FourComponent},
   {path: '**', component: WarningComponent}
 ];
 @NgModule({
